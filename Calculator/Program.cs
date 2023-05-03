@@ -35,6 +35,7 @@ namespace Calculator
             }
         }
     
+
         private static int GetInPut()
         {
             if (!int.TryParse(Console.ReadLine(), out int input))
